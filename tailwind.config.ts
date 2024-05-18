@@ -36,7 +36,20 @@ const config: Config = {
         'light-green': {
           extend: 'light',
           colors: {
-            primary: {},
+            primary: {
+              50: '#EFF9EF',
+              100: '#CEECCD',
+              200: '#B6E2B4',
+              300: '#95D592',
+              400: '#81CD7D',
+              500: '#61C15D',
+              600: '#58B055',
+              700: '#458942',
+              800: '#356A33',
+              900: '#295127',
+              DEFAULT: '#61C15D',
+              foreground: '#FFFFFF',
+            },
             secondary: {
               50: '#FFEFEA',
               100: '#FFCFBE',
